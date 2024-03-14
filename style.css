@@ -1,0 +1,334 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d8d8d8;
+}
+
+.mainDiv {
+    display: flex;
+    flex-direction: row;
+    
+  width: 1160px;
+  height: 550px;
+}
+
+.Pizza {
+  width: 360px;
+  height: 528px;
+  background-color: white;
+}
+
+.pizzaa {
+  width: 360px;
+  height: 216px;
+}
+
+.Firstinfoic {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 16px;
+  left: 304px;
+}
+
+.pepperoni {
+  width: 198px;
+  height: 25px;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 32px 0px 24px 24px;
+  color: #081f32;
+}
+
+.hotFirst {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 250px;
+  left: 279px;
+}
+
+.wheatFirst {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 250px;
+  left: 312px;
+}
+
+.textFirst {
+  width: 312px;
+  height: 75px;
+  font-size: 16px;
+  color: #6e798c;
+  margin: 0px 24px 24px 24px;
+}
+
+.ulFirst {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 312px;
+  height: 25px;
+  margin: 0px 24px 0px 24px;
+  list-style: none;
+  color: #a5adbb;
+  font-weight: 600;
+}
+
+.firstBtn {
+  width: 114px;
+  height: 44px;
+  background-color: 
+  #2ECC71;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 454px;
+  left: 222px;
+  border: 
+  #2ECC71 solid;
+  border-radius: 7px;
+  font-family: serif;
+}
+
+.firstCost {
+  width: 88px;
+  height: 25px;
+  font-family: serif;
+  font-size: 28px;
+  color: #081f32;
+  display: flex;
+  margin: 40px 8px 40px 24px;
+}
+
+.secondCost {
+  width: 73px;
+  height: 25px;
+  position: absolute;
+  top: 469px;
+  left: 120px;
+  font-size: 20px;
+  color: #f8593b;
+  font-family: serif;
+}
+
+.tortellini {
+    width: 360px;
+    height: 528px;
+    background-color: white;
+    margin: 0px 0px 0px 50px;
+}
+
+.tortelliniii {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 16px;
+    left: 714px;
+}
+
+.tortellinii {
+    width: 360px;
+    height: 216px;
+    margin: 0px 0px 80px 0px;
+}
+
+.tortr {
+    width: 195px;
+    height: 25px;
+    position: absolute;
+    top: 248px;
+    left: 450px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: serif;
+}
+
+.wheatSecond {
+    position: absolute;
+    top: 248px;
+    left: 723px;
+}
+
+.hotSecond {
+    position: absolute;
+    top: 248px;
+    left: 691px;
+}
+
+.organicFirst {
+    position: absolute;
+    top: 248px;
+    left: 660px;
+}
+
+.textSecond {
+    color: #6E798C;
+    width: 312px;
+    height: 75px;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px 16px 24px 32px;
+}
+
+.ulSecond {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 313px;
+    height: 25px;
+    color: #A5ADBB;
+    font-weight: 600;
+    list-style: none;
+    margin: 0px 24px 0px 24px;
+}
+
+.thirdCost {
+    width: 88px;
+    height: 25px;
+    font-weight: 400;
+    font-family: serif;
+    font-size: 28px;
+    color: #081F32;
+    position: absolute;
+    top: 462px;
+    margin: 0px 32px;
+}
+
+.fourthCost {
+    width: 73px;
+    height: 25px;
+    position: absolute;
+    top: 467px;
+    left: 540px;
+    font-weight: 400;
+    font-size: 20px;
+    color: 
+    #F8593B;
+}
+
+.secondBtn {
+    width: 114px;
+    height: 44px;
+    background-color: 
+    #2ECC71;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 454px;
+    left: 636px;
+    border: 
+    #2ECC71 solid;
+    border-radius: 7px;
+    font-family: serif;
+}
+
+.Cake {
+    width: 360px;
+    height: 528px;
+    margin: 0px 0px 0px 50px;
+    background-color: white;
+}
+
+.cakePhoto {
+    margin: 0px 0px 80px 0px;
+    width: 360px;
+    height: 216px;
+}
+
+.thirdInfoic {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 16px;
+    left: 1125px;
+}
+
+.cakee {
+    width: 195px;
+    height: 25px;
+    position: absolute;
+    top: 248px;
+    left: 850px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: serif;
+}
+
+.wheatThird {
+    position: absolute;
+    top: 248px;
+    left: 1133px;
+}
+
+.textThird {
+    color: #6E798C;
+    width: 312px;
+    height: 75px;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px 16px 24px 32px;
+}
+
+.ulThird {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 313px;
+    height: 25px;
+    color: #A5ADBB;
+    font-weight: 600;
+    list-style: none;
+    margin: 0px 24px 0px 24px;
+}
+
+.fifthCost {
+    width: 88px;
+    height: 25px;
+    font-weight: 400;
+    font-family: serif;
+    font-size: 28px;
+    color: #081F32;
+    position: absolute;
+    top: 462px;
+    margin: 0px 32px;
+}
+
+.lastCost {
+    width: 73px;
+    height: 25px;
+    position: absolute;
+    top: 467px;
+    left: 950px;
+    font-weight: 400;
+    font-size: 20px;
+    color: 
+    #F8593B;
+}
+
+.thirdBtn {
+    width: 114px;
+    height: 44px;
+    background-color: 
+    #2ECC71;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 454px;
+    left: 1036px;
+    border: 
+    #2ECC71 solid;
+    border-radius: 7px;
+    font-family: serif;
+}
